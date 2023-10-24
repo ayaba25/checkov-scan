@@ -24,5 +24,6 @@ resource "aws_instance" "app" {
 
   tags = {
     env = "testing"
+    Name = "AppServer"
   }
 }
